@@ -1,0 +1,33 @@
+# NOTE: you can use vars with $<var> and ${<var>} as long as the str is double quoted: ""
+# WARNING: hex colors can't contain capital letters
+
+# --> Catppuccin (Cyber)
+# background 'bar' behind everything
+thm_bg="#1a1a1a"        # dark grey
+# text color for everything that isn't the selected window
+thm_fg="#40bfbf"        # dark crew
+# background for everything that isn't the selected window
+thm_gray="#1a1a1a"      # dark grey
+# background for the window image
+thm_pink="#cc0099"      # cyber purple
+# background for the session image
+thm_green="#00cc99"     # green crew
+# window number background for unselected windows and divider
+thm_blue="#f92672"      # crew ro(50)
+# window number background for selected window
+thm_orange="#02ffd9"    # bright crew
+# background for the session image when using 'bind'
+thm_red="#00cc99"       # green crew
+
+
+# unused
+thm_cyan="#99d1db"      #
+# unused
+thm_black="#292c3c"     #
+# unused
+thm_magenta="#ca9ee6"   #
+# unused
+thm_yellow="#e5c890"    #
+# unused
+thm_black4="#626880"    #
+
