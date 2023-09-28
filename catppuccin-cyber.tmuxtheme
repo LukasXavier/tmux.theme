@@ -18,16 +18,16 @@ thm_blue="#f92672"      # crew ro(50)
 thm_orange="#02ffd9"    # bright crew
 # background for the session image when using 'bind'
 thm_red="#00cc99"       # green crew
+# used for highlighting
+thm_cyan="#00cc99"      #
+# used for highlighting
+thm_black4="#252525"    #
 
 
-# unused
-thm_cyan="#99d1db"      #
 # unused
 thm_black="#292c3c"     #
 # unused
 thm_magenta="#ca9ee6"   #
 # unused
 thm_yellow="#e5c890"    #
-# unused
-thm_black4="#626880"    #
 

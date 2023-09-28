@@ -181,10 +181,12 @@ main() {
   setw window-status-format "${window_status_format}"
   setw window-status-current-format "${window_status_current_format}"
 
+  setw status-position "top"
+
   # --------=== Modes
   #
   setw clock-mode-colour "${thm_blue}"
-  setw mode-style "fg=${thm_pink} bg=${thm_black4} bold"
+  setw mode-style "fg=${thm_pink} bg=${thm_black4}"
 
   tmux "${tmux_commands[@]}"
 }
