@@ -111,10 +111,10 @@ main() {
 
   # These variables are the defaults so that the setw and set calls are easier to parse.
   local show_directory
-  readonly show_directory="#[fg=$thm_pink]$right_separator#[fg=$thm_bg bg=$thm_pink]$directory_icon #[fg=$thm_fg bg=$thm_bg]#{b:pane_current_path} "
+  readonly show_directory="#[fg=$thm_pink]$right_separator#[fg=$thm_white bg=$thm_pink]$directory_icon #[fg=$thm_white]#{b:pane_current_path}#[bg=$thm_bg fg=$thm_pink]$left_separator"
 
   local show_session
-  readonly show_session="#[fg=$thm_red bg=$thm_bg]$right_separator#[fg=$thm_bg bg=$thm_red]$session_icon #[fg=$thm_fg bg=$thm_gray]#S"
+  readonly show_session="#[fg=$thm_red bg=$thm_bg]$right_separator#[fg=$thm_bg bg=$thm_red]$session_icon #[fg=$thm_bg bg=$thm_red]#S#[bg=$thm_bg fg=$thm_red]$left_separator"
 
   local show_window_in_window_status
   readonly show_window_in_window_status="#[fg=$thm_blue,bg=$thm_bg]$right_separator#[fg=$thm_bg,bg=$thm_blue]#I#[fg=$thm_blue,bg=$thm_bg]$left_separator#[fg=$thm_fg,bg=$thm_bg]"

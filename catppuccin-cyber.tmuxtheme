@@ -8,8 +8,10 @@ thm_bg="#1a1a1a"        # dark grey
 thm_fg="#40bfbf"        # dark crew
 # background for everything that isn't the selected window
 thm_gray="#1a1a1a"      # dark grey
+
+thm_white="#cccccc"
 # background for the window image
-thm_pink="#cc0099"      # cyber purple
+thm_pink="#444444"      # cyber purple
 # background for the session image
 thm_green="#00cc99"     # green crew
 # window number background for unselected windows and divider
