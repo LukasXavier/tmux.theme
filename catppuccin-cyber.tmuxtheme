@@ -13,15 +13,15 @@ thm_white="#cccccc"
 # background for the window image
 thm_pink="#444444"      # cyber purple
 # background for the session image
-thm_green="#00cc99"     # green crew
+thm_green="#59a6a6"     # green crew
 # window number background for unselected windows and divider
 thm_blue="#f92672"      # crew ro(50)
 # window number background for selected window
 thm_orange="#02ffd9"    # bright crew
 # background for the session image when using 'bind'
-thm_red="#00cc99"       # green crew
+thm_red="#59a6a6"       # green crew
 # used for highlighting
-thm_cyan="#00cc99"      #
+thm_cyan="#59a6a6"      #
 # used for highlighting
 thm_black4="#252525"    #
 
