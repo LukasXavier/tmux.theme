@@ -15,7 +15,8 @@ thm_pink="#444444"      # cyber purple
 # background for the session image
 thm_green="#59a6a6"     # green crew
 # window number background for unselected windows and divider
-thm_blue="#f92672"      # crew ro(50)
+thm_blue="#59a6a6"      # crew split line
+# thm_blue="#f92672"      # crew ro(50)
 # window number background for selected window
 thm_orange="#02ffd9"    # bright crew
 # background for the session image when using 'bind'
