@@ -64,6 +64,8 @@ main() {
     local directory_icon="$(get_tmux_option "@lxtheme.icon.dir" "")"
     local session_icon="$(get_tmux_option "@lxtheme.icon.sesh" "")"
     local host_icon="$(get_tmux_option "@lxtheme.icon.host" "󰒋")"
+    thmHostFg="$(get_tmux_option "@lxtheme.theme.hostFg" "$thmHostFg")"
+    thmHostBg="$(get_tmux_option "@lxtheme.theme.hostBg" "$thmHostBg")"
 
     local directory="$(pill "${thmDirFg}" "${thmDirBg}" "#{b:pane_current_path}" "$directory_icon")"
     local session="$(pill "${thmSeshFg}" "${thmSeshBg}" "#S" "$session_icon")"
