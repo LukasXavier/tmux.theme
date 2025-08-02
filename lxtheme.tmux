@@ -97,6 +97,8 @@ main() {
 
     setw status-position "top"
 
+    setw message-style "fg=${thmCopyModeFg} bg=${thmCopyModeBg}"
+
     # --------=== Modes
     #
     setw clock-mode-colour "${thmClock}"
